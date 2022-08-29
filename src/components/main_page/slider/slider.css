@@ -1,0 +1,126 @@
+.swiper-card img{
+    width: 218px;
+}
+@media(max-width: 1055px) {
+    .swiper-card img{
+        width: 190px;
+    }
+}
+@media(max-width: 800px) {
+    .swiper-card img{
+        width: 150px;
+    }
+}
+@media(max-width: 555px) {
+    .swiper-card img{
+        width: 100px;
+    }
+}
+@media(max-width: 375px) {
+    .swiper-card img{
+        width: 85px;
+    }
+}
+.swiper-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-card{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.sw-card-img{
+    display: block;
+    margin: 0 auto;
+}
+.card-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.kepka-brand{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color:#847E7E;
+}
+@media(max-width: 1055px) {
+    .kepka-brand{
+        font-size: 20px;
+    }
+}
+@media(max-width: 555px) {
+    .kepka-brand{
+        font-size: 17px;
+    }
+}
+@media(max-width: 375px) {
+    .kepka-brand{
+        font-size: 15px;
+    }
+}
+.kepka-model{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: -1px;
+    color: #847E7E;
+    margin: 10px 0;
+}
+@media(max-width: 1055px) {
+    .kepka-model{
+        font-size: 13px;
+    }
+}
+@media(max-width: 555px) {
+    .kepka-model{
+        font-size: 10px;
+        margin: 0px;
+    }
+}
+@media(max-width: 375px) {
+    .kepka-model{
+        font-size: 9px;
+        margin: 0px;
+    }
+}
+.kepka-price{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #FDDB16;
+}
+@media(max-width: 1055px) {
+    .kepka-price{
+        font-size: 15px;
+    }
+}
+.swiper{
+    max-width: 904px;
+}
+.swiper-inner{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.arrow-left, .arrow-right{
+    width: 30px;
+    height: auto;
+    font-size: 50px;
+}
+@media (max-width: 680px) {
+    .arrow-left, .arrow-right{
+        font-size: 30px;
+    }
+}
+@media (max-width: 555px) {
+    .arrow-left, .arrow-right{
+        font-size: 20px;
+    }
+}
+.arrow-right{
+    transform: rotate(180deg);
+}

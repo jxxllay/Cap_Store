@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    margin: 0 auto;
+    padding: 0px 100px 0px; 
+}
+@media (max-width: 1000px) {
+    .footer  {
+        padding: 0px 21px 0px 21px;
+    }
+}
+@media (min-width: 1010px) {
+    .footer-adaptive{
+        display: none;
+    }
+}
+@media (max-width: 1010px) {
+    .footer-adaptive{
+        height: 373px;
+        padding: 35px 0 41px;
+    }
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 700px) {
+    .left {
+        flex-direction: column;
+    }
+}
+.left h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A142F;
+}
+.left a{
+    text-decoration: none;
+}
+.left p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0A142F;
+    opacity: 0.5;
+    margin-bottom: 12px;
+}
+.footer-info {
+    display: flex;
+    justify-content: flex-start;
+}
+@media (max-width: 700px) {
+    .footer-info {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.products {
+    margin-right: 48px;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    height: 171px;
+    width: 325px;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(32, 60, 134, 0.05);
+    mix-blend-mode: normal;
+    justify-content: space-evenly;
+}
+@media(max-width:370px) {
+    .subscribe {
+        width: 278px;
+    }
+}
+.subscribe form {
+    display: flex;
+}
+.subscribe input {
+    height: 50px;
+    min-width: 198px;
+    background: #FFFFFF;
+    border: 1.5px solid #E7E8F2;
+    border-radius: 10px;
+}
+.email-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0A142F;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    text-align: center;
+}
+.subscribe button{
+    min-width: 50px;
+    height: 50px;
+    background: #FDDB16;
+    border-radius: 8px;
+}
+.card-style {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+@media(max-width: 420px) {
+    .card-style {
+        justify-content: space-between;
+    }
+}
+.cards h4 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    text-align: end;
+}
+@media (max-width: 700px) {
+    .cards h4  {
+        display: none;
+    }
+}
+.second {
+    margin: 40px auto;
+}
+@media (max-width: 700px) {
+    .second  {
+        margin: 170px auto 5px ;
+    }
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 370px) {
+    .main  {
+        justify-content: center;
+    }
+}
+.logo {
+    display: flex;
+}
+.icons {
+    display: flex;
+}
+@media (max-width: 370px) {
+    .icons   {
+        display: none;
+    }
+}
+.logo-text {
+    margin-left: 7px;
+    margin-top: 3px;
+}
+.logo-text h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color:black;
+}
+.logo-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+.logo-img-footer {
+    width: 53px;
+    height: 44px;
+}
+.oval{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1.5px solid #0A142F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.oval:hover {
+    background: #FDDB16;
+}
+.cursive{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 50px ;
+    text-align: center;
+    color: #0A142F;
+    mix-blend-mode: normal;
+    opacity: 0.65;
+}
+@media (min-width: 371px) {
+    .hr-adap {
+        display: none;
+    }
+}
+@media (max-width: 370px) {
+    .hr-adap {
+        margin: 15px 0px;
+    }
+}
